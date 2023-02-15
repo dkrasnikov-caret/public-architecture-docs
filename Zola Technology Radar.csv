@@ -1,13 +1,21 @@
 ﻿name,ring,quadrant,isNew,description
+Logging,Assess,Technique,TRUE,Centralized logging is important to any cloud application. Make logging infrastructure agnostic.
+Automated CI/CD,Adopt,Technique,TRUE,Build pipelines for PR and Main branches. Including artifacts creation and test runs.
+Integration Tests,Adopt,Technique,TRUE,Integration tests from API to DB.
+Unit Tests,Adopt,Technique,TRUE,Unit test coverage for .net code
 Dependency Injection,Adopt,Technique,TRUE,Implement correct dependency injecton pattern with selected IOC.
 .NET 6,Adopt,Languages and Frameworks,TRUE,<strong>Languages and Frameworks</strong></br></br>This is the latest LTS version of .NET. Replaces both .NET Core and .NET Framework.<br/><a href='https://dotnet.microsoft.com/download/dotnet/6.0'>More info…</a>
+Blazor,Trial,Languages and Frameworks,TRUE,Move existing web forms to blazor pages.
 React,Trial,Languages and Frameworks,TRUE,<strong>UI Framework</strong></br></br>JavaScript library for building user interfaces.<br/><a href='https://reactjs.org/'>More info…</a>
 Serilog,Assess,Languages and Frameworks,FALSE,<strong>Logging Framework</strong></br></br>Structured logging framework.<br/><a href='https://serilog.net/'>More info…</a>
 TypeScript,Trial,Languages and Frameworks,FALSE,<strong>Language</strong></br></br>Strongly typed JavaScript.<br/><a href='https://www.typescriptlang.org/'>More info…</a>
+OpenTelemetry,Hold,Platform,TRUE,"Standard based open framework for collecting and forwarding of logs, traces and metrics to centrral repositories."
 Cypress,Assess,Tools,TRUE,<strong>Test Framework</strong></br></br>JavaScript end to end testing framework.<br/><a href='https://www.cypress.io/'>More info…</a>
 Visual Studio 2022,Adopt,Tools,FALSE,<strong>IDE</strong></br></br>Released on 8 November. 64-bit. Faster.<br/><a href='https://visualstudio.microsoft.com/'>More info…</a>
 Visual Studio Code,Adopt,Tools,TRUE,<strong>IDE</strong></br></br>Code editor and development environment.<br/><a href='https://code.visualstudio.com/'>More info…</a>
 YAML Pipelines,Adopt,Tools,TRUE,"<strong>DevOps</strong></br></br>Build and release pipoeline definitions in source control, alongside the code.<br/><a href='https://docs.microsoft.com/en-gb/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema'>More info…</a>"
+Micro Frontend,Assess,Tools,TRUE,"For incremental development of new architechture addition of new pages, Blazor or React or Angular"
+AWS EKS,Adopt,Platform,TRUE,Deploy microservices in the scalable container based service.
 Docker,Adopt,Platform,TRUE,<strong>Hosting</strong></br></br>Hosting for containerised web apps on Windows or Linux.<br/><a href='https://azure.microsoft.com/en-gb/services/app-service/web/'>More info…</a>
 Application Insights,Trial,Platform,FALSE,<strong>Logging Framework</strong></br></br>Cloud application monitoring and analytics.<br/><a href='https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'>More info…</a>
 Webstorm,Assess,Tools,FALSE,<strong>IDE</strong></br></br>Lightweight IDE with a frontend focus.<br/><a href='https://www.jetbrains.com/webstorm/'>More info…</a>
@@ -18,4 +26,5 @@ Azure DevOps,Hold,Tools,FALSE,<strong>DevOps</strong></br></br>Cloud-based build
 Rider,Trial,Tools,FALSE,<strong>IDE</strong></br></br>Built in ReSharper static code analysis and refactoring. Faster than VS2019.<br/><a href='https://www.jetbrains.com/rider/'>More info…</a>
 S3,Trial,Platform,FALSE,<strong>Storage</strong></br></br>Cost-effective cloud storage.<br/><a href='https://azure.microsoft.com/en-gb/services/storage/blobs/'>More info…</a>
 Lets Encrypt,Hold,Platform,FALSE,<strong>TLS Provider</strong></br></br>Free and automated creation of SSL certificates.<br/><a href='https://letsencrypt.org/'>More info…</a>
+Sunsetting Mongo,Hold,Platform,TRUE,"Currently mongo is used in a small use case scenarios - exception logging, custom fields. One should be sent in the infrastructure agnostic way, the other - custome fields can be added as a relational table. "
 SQL Server 2019,Adopt,Platform,FALSE,<strong>Storage</strong></br></br>Mainstream support has ended. Extended support lasts until 2026.<br/><a href='https://docs.microsoft.com/en-us/lifecycle/products/sql-server-2016'>More info…</a>
