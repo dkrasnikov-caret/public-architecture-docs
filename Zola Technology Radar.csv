@@ -1,11 +1,11 @@
 ﻿name,ring,quadrant,isNew,description
-Logging,Assess,Technique,TRUE,Centralized logging is important to any cloud application. Make logging infrastructure agnostic.
 Automated CI/CD,Adopt,Technique,TRUE,Build pipelines for PR and Main branches. Including artifacts creation and test runs.
+Blazor,Trial,Languages and Frameworks,TRUE,Move existing web forms to blazor pages.
+Logging,Assess,Technique,TRUE,Centralized logging is important to any cloud application. Make logging infrastructure agnostic.
 Integration Tests,Adopt,Technique,TRUE,Integration tests from API to DB.
 Unit Tests,Adopt,Technique,TRUE,Unit test coverage for .net code
 Dependency Injection,Adopt,Technique,TRUE,Implement correct dependency injecton pattern with selected IOC.
 .NET 6,Adopt,Languages and Frameworks,TRUE,<strong>Languages and Frameworks</strong></br></br>This is the latest LTS version of .NET. Replaces both .NET Core and .NET Framework.<br/><a href='https://dotnet.microsoft.com/download/dotnet/6.0'>More info…</a>
-Blazor,Trial,Languages and Frameworks,TRUE,Move existing web forms to blazor pages.
 React,Trial,Languages and Frameworks,TRUE,<strong>UI Framework</strong></br></br>JavaScript library for building user interfaces.<br/><a href='https://reactjs.org/'>More info…</a>
 Serilog,Assess,Languages and Frameworks,FALSE,<strong>Logging Framework</strong></br></br>Structured logging framework.<br/><a href='https://serilog.net/'>More info…</a>
 TypeScript,Trial,Languages and Frameworks,FALSE,<strong>Language</strong></br></br>Strongly typed JavaScript.<br/><a href='https://www.typescriptlang.org/'>More info…</a>
