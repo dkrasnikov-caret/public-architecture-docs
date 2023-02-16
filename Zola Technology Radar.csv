@@ -28,3 +28,5 @@ S3,Trial,Platform,FALSE,<strong>Storage</strong></br></br>Cost-effective cloud s
 Lets Encrypt,Hold,Platform,FALSE,<strong>TLS Provider</strong></br></br>Free and automated creation of SSL certificates.<br/><a href='https://letsencrypt.org/'>More info…</a>
 Sunsetting Mongo,Hold,Platform,TRUE,"Currently mongo is used in a small use case scenarios - exception logging, custom fields. One should be sent in the infrastructure agnostic way, the other - custome fields can be added as a relational table. "
 SQL Server 2019,Adopt,Platform,FALSE,<strong>Storage</strong></br></br>Mainstream support has ended. Extended support lasts until 2026.<br/><a href='https://docs.microsoft.com/en-us/lifecycle/products/sql-server-2016'>More info…</a>
+SQL Server 2022,Hold,Platform,TRUE,<strong>Storage</strong></br></br>Mainstream support has ended. Extended support lasts until 2026.<br/><a href='https://docs.microsoft.com/en-us/lifecycle/products/sql-server-2016'>More info…</a>
+Azure Sql Server,Hold,Platform,TRUE,Move storage into the cloud for additional scalability and maintainability.
